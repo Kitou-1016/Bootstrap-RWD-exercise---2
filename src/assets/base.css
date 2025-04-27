@@ -1,0 +1,91 @@
+header {
+  text-align: center;
+  padding: 50px;
+  background-image: url(https://i.imgur.com/vD0I3E3.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+header h1 {
+  height: 200px;
+}
+
+.container {
+  letter-spacing: 1px;
+}
+
+.intro{
+background-color: #e2f0fa;
+}
+
+section {
+  text-align: center;
+  padding-top: 30px;
+}
+section .section-heading {
+  font-size: 36px;
+  margin: 50px 0px;
+}
+section .section-subheading {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.col-sea {
+  padding: 50px;
+}
+
+.col-sea img {
+  width: 110%;
+  border-radius: 20px;
+}
+
+.col-sea-2 img {
+  width: 110%;
+  height: 51%;
+  border-radius: 20px;
+}
+
+.story {
+  background-color: #eee;
+}
+.story .int {
+  padding: 40px;
+}
+.story .icon-sea {
+  width: 70px;
+  height: 100px;
+}
+.pictures {
+  padding: 0px;
+  color: white;
+}
+.pictures .pic {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+.pictures .pic:hover {
+  filter: brightness(0.5);
+  background-size: 120% auto;
+  color: white;
+}
+.pictures .pic1 {
+  background-image: url(https://i.imgur.com/QBICspF.jpeg);
+}
+.pictures .pic2 {
+  background-image: url(https://i.imgur.com/tjGNgXq.jpeg);
+}
+
+.text-panel {
+  padding: 150px;
+}
+
+.pictures p {
+  opacity: 0.6;
+}
+
+.ask {
+  background-color: #01233c;
+  color: #eee;
+}
